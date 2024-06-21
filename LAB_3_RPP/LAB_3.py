@@ -117,5 +117,5 @@ print_data(select_more_than(data, 500))  # Выводим отфильтрова
 
 # Пример добавления новых данных
 add_new_data(os.path.join(dir_path, "data1.csv"), data, 12341, "15.05.2021", "#43424", "Камаз")  # Добавляем новые данные
-add_new_data(os.path.join(dir_path, "data.csv"), data, 423, "21.11.2023", "#4321", "УАЗ")  # Добавляем новые данные
-add_new_data(os.path.join(dir_path, "data.csv"), data, 231, "11.02.2023", "#4241", "Ниссан")  # Добавляем новые данные
+add_new_data(os.path.join(dir_path, "data1.csv"), data, 423, "21.11.2023", "#4321", "УАЗ")  # Добавляем новые данные
+add_new_data(os.path.join(dir_path, "data1.csv"), data, 231, "11.02.2023", "#4241", "Ниссан")  # Добавляем новые данные
